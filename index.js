@@ -1,3 +1,3 @@
-var WE = require('./lib/we.js');
+var QXC = require('./lib/qxc.js');
 
-module.exports = WE;
+module.exports = QXC;
