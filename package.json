@@ -1,14 +1,14 @@
 {
-  "name": "we",
+  "name": "qxc",
   "version": "1.0.0",
   "description": "一款基于jquery的前端页面组织工具",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/genphisliang/we"
+    "url": "[obj type="url" value="https://github.com/genphisliang/qxc"]"
   },
   "keywords": [
-    "we"
+    "qxc"
   ],
   "author": "583237152_genphis",
   "license": "ISC",
