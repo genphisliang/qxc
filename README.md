@@ -7,12 +7,12 @@
 
 import $ from 'jquery';
 import store from './store';
-import WE from 'we';
+import QXC from 'qxc';
 import module1 from './module1/index';
 import module2 from './module2/index';
 
 /** 定义一个页面 */
-WE.definePage({
+QXC.definePage({
   /** 定义页面的命名空间，页面会挂载到此命名空间，命名空间必须是唯一的, 可以为空， 如果不为空会挂载到 window的命名空间下 */
   namespace: 'PC.HOME',
   /** 页面全局相关的store */
@@ -52,11 +52,11 @@ WE.definePage({
 ## 创建module
 ```
 
-import WE from '../we';
+import QXC from '../qxc';
 import store from './store';
 
 /** 定义一个模块 */
-const mod = WE.defineModule({
+const mod = QXC.defineModule({
   /** 模块自身的store, 可以不设 */
   store,
   /** 构造函数，模块初始化时优先执行 */
